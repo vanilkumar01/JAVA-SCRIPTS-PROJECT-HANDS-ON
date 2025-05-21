@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.bg {
+    background-color: #f55656;
+    height: 100vh;
+}
+
+.home-page {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: 900;
+    padding: 14px;
+
+}
+
+.card-container {
+    background-color: #ffffff;
+    padding: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.head {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.h {
+    font-family: "Bree Serif";
+}
+
+.para {
+    font-family: "Bree Serif";
+    color: #f51b38;
+    font-size: 28px;
+    text-align: center;
+}
