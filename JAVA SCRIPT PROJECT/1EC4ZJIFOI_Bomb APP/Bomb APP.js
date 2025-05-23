@@ -13,7 +13,7 @@ let intervalId = setInterval(function() {
 
 defuserEl.addEventListener("keydown", function(event) {
     let bombDefuserText = defuserEl.value;
-    if (event.key === "Enter" && bombDefuserText === "defuse" && countdown !== 0) {
+    if (event.key === "Enter" && bombDefuserText === "defuse" && countdown !== 1) {
         timerEl.textContent = "You did it!";
         clearInterval(intervalId);
     }
